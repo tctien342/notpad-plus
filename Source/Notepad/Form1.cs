@@ -55,7 +55,7 @@ namespace Notepad
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 filePath = openFileDialog1.FileName;
                 String text = File.ReadAllText(filePath);
@@ -91,13 +91,15 @@ namespace Notepad
             saveFileDialog1.FileName = defaultFileName + ".txt";
             saveFileDialog1.DefaultExt = "txt";
             saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-            saveFileDialog1.ShowDialog();
-            filePath = saveFileDialog1.FileName;
-            String fName = saveFileDialog1.FileName;
-            StreamWriter streamWriter = new StreamWriter(fName);
-            streamWriter.Write(richTextBox1.Text);
-            streamWriter.Flush();
-            streamWriter.Close();
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                filePath = saveFileDialog1.FileName;
+                String fName = saveFileDialog1.FileName;
+                StreamWriter streamWriter = new StreamWriter(fName);
+                streamWriter.Write(richTextBox1.Text);
+                streamWriter.Flush();
+                streamWriter.Close();
+            }
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)

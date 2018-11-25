@@ -34,3 +34,15 @@ C:\Users\Admin\source\MyNotepad\Notepad\Notepad\obj\Debug\Notepad.csproj.Generat
 C:\Users\Admin\source\MyNotepad\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\MyNotepad\Notepad\Notepad\obj\Debug\Notepad.exe
 C:\Users\Admin\source\MyNotepad\Notepad\Notepad\obj\Debug\Notepad.pdb
+C:\Users\Admin\source\notpad-plus\Source\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\Admin\source\notpad-plus\Source\Notepad\bin\Debug\Notepad.exe
+C:\Users\Admin\source\notpad-plus\Source\Notepad\bin\Debug\Notepad.pdb
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.csprojAssemblyReference.cache
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.Find.resources
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.Form1.resources
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.Replace.resources
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.exe
+C:\Users\Admin\source\notpad-plus\Source\Notepad\obj\Debug\Notepad.pdb
